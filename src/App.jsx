@@ -16,7 +16,7 @@ const NEWS = [
     "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
     "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal gove...",
     "category": "LLM",
-    "date": "09 3월 2026",
+    "date": "08 3월 2026",
     "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600",
     "content": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?\n\nOn the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
   },
@@ -25,7 +25,7 @@ const NEWS = [
     "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
     "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
     "category": "AI 일반",
-    "date": "09 3월 2026",
+    "date": "08 3월 2026",
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600",
     "content": "Owner of ICE detention facility sees big opportunity in AI man camps\n\nAI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
   },
