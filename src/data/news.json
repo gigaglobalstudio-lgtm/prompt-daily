@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-03-09T09:00:00+09:00",
+  "lastUpdated": "2026-03-09T00:50:12.435Z",
   "articles": [
+    {
+      "id": "1773017412132000",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.",
+      "category": "기업 AI",
+      "author": "Prompt Daily 편집팀",
+      "date": "2026-03-08T20:14:42.000Z",
+      "readTime": "4분",
+      "image": "https://picsum.photos/seed/1773017412132000/800/450",
+      "breaking": true
+    },
+    {
+      "id": "1773017412132001",
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
+      "category": "기업 AI",
+      "author": "Prompt Daily 편집팀",
+      "date": "2026-03-08T16:30:00.000Z",
+      "readTime": "5분",
+      "image": "https://picsum.photos/seed/1773017412132001/800/450",
+      "breaking": false
+    },
+    {
+      "id": "1773017412132002",
+      "title": "A roadmap for AI, if anyone will listen",
+      "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+      "category": "기업 AI",
+      "author": "Prompt Daily 편집팀",
+      "date": "2026-03-08T06:05:26.000Z",
+      "readTime": "3분",
+      "image": "https://picsum.photos/seed/1773017412132002/800/450",
+      "breaking": false
+    },
     {
       "id": "001",
       "title": "OpenAI, GPT-5 베타 테스트 시작... '추론 능력 3배 향상' 주장",
