@@ -27,9 +27,7 @@ jobs:
         run: npm ci
 
       - name: Fetch and update news
-        env:
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-        run: node scripts/fetch-news.js
+        run: node scripts/fetch-news.mjs
 
       - name: Commit and push changes
         run: |
