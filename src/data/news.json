@@ -1,0 +1,106 @@
+{
+  "lastUpdated": "2026-03-09T09:00:00+09:00",
+  "articles": [
+    {
+      "id": "001",
+      "title": "OpenAI, GPT-5 베타 테스트 시작... '추론 능력 3배 향상' 주장",
+      "summary": "OpenAI가 차세대 대규모 언어 모델 GPT-5의 베타 테스트를 일부 기업 고객 대상으로 시작했다. 복잡한 추론 작업에서 기존 모델 대비 3배 향상된 성능을 보인다고 밝혔다.",
+      "category": "LLM",
+      "author": "김태영 기자",
+      "date": "2026-03-09T08:30:00+09:00",
+      "readTime": "4분",
+      "breaking": true,
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800"
+    },
+    {
+      "id": "002",
+      "title": "Anthropic, Claude 4 출시 예고... '윤리적 AI의 새 기준'",
+      "summary": "Anthropic이 3월 중 Claude 4 출시를 예고했다. 향상된 Constitutional AI와 함께 멀티모달 기능이 대폭 강화될 전망이다.",
+      "category": "LLM",
+      "author": "이서연 기자",
+      "date": "2026-03-09T07:00:00+09:00",
+      "readTime": "3분",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800"
+    },
+    {
+      "id": "003",
+      "title": "Sora 2.0 공개, 8K 영상 생성 지원... 할리우드 '긴장'",
+      "summary": "OpenAI가 차세대 비디오 생성 모델 Sora 2.0을 발표했다. 8K 해상도와 최대 5분 길이의 영상 생성이 가능해져 영상 제작 산업에 큰 파장이 예상된다.",
+      "category": "비디오 AI",
+      "author": "박지훈 기자",
+      "date": "2026-03-09T06:00:00+09:00",
+      "readTime": "5분",
+      "image": "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800"
+    },
+    {
+      "id": "004",
+      "title": "구글 Gemini 2.5, 코딩 벤치마크서 GPT-4o 추월",
+      "summary": "구글의 Gemini 2.5가 주요 코딩 벤치마크에서 GPT-4o를 앞질렀다. 특히 복잡한 알고리즘 문제 해결에서 15% 높은 정확도를 기록했다.",
+      "category": "LLM",
+      "author": "최민수 기자",
+      "date": "2026-03-08T22:00:00+09:00",
+      "readTime": "4분",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800"
+    },
+    {
+      "id": "005",
+      "title": "테슬라 Optimus 2.0, 공장 라인 투입 시작",
+      "summary": "테슬라가 차세대 휴머노이드 로봇 Optimus 2.0을 프리몬트 공장에 시범 배치했다. 2027년 대량 생산 목표.",
+      "category": "로보틱스",
+      "author": "김태영 기자",
+      "date": "2026-03-08T20:00:00+09:00",
+      "readTime": "3분",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800"
+    },
+    {
+      "id": "006",
+      "title": "애플, 자체 LLM 'Apple Intelligence 2.0' WWDC서 공개 예정",
+      "summary": "애플이 자체 개발한 대규모 언어 모델 Apple Intelligence 2.0을 오는 6월 WWDC에서 공개할 예정이다. 온디바이스 AI 처리가 핵심.",
+      "category": "기업 AI",
+      "author": "이서연 기자",
+      "date": "2026-03-08T18:00:00+09:00",
+      "readTime": "4분",
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800"
+    },
+    {
+      "id": "007",
+      "title": "미드저니 V7, 실사와 구분 불가능한 수준 도달",
+      "summary": "미드저니가 V7 알파 버전을 공개했다. 전문가들도 실제 사진과 구분하기 어려운 수준의 이미지 생성이 가능해졌다.",
+      "category": "이미지 AI",
+      "author": "박지훈 기자",
+      "date": "2026-03-08T16:00:00+09:00",
+      "readTime": "3분",
+      "image": "https://images.unsplash.com/photo-1686191128892-3b37add4683e?w=800"
+    },
+    {
+      "id": "008",
+      "title": "메타, 오픈소스 Llama 4 발표... 'GPT-4 수준 무료 공개'",
+      "summary": "메타가 Llama 4를 오픈소스로 공개했다. 상업적 이용도 무료로 가능해 AI 생태계에 큰 변화가 예상된다.",
+      "category": "LLM",
+      "author": "최민수 기자",
+      "date": "2026-03-08T14:00:00+09:00",
+      "readTime": "5분",
+      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800"
+    },
+    {
+      "id": "009",
+      "title": "AI 스타트업 투자 급증... Q1 벤처 투자의 45% 차지",
+      "summary": "2026년 1분기 글로벌 벤처캐피탈 투자 중 AI 스타트업이 45%를 차지하며 사상 최고치를 기록했다.",
+      "category": "스타트업",
+      "author": "김태영 기자",
+      "date": "2026-03-08T12:00:00+09:00",
+      "readTime": "4분",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+    },
+    {
+      "id": "010",
+      "title": "EU, AI Act 시행 본격화... 기업들 대응 분주",
+      "summary": "EU AI Act가 본격 시행됨에 따라 글로벌 빅테크 기업들의 컴플라이언스 대응이 본격화되고 있다.",
+      "category": "기업 AI",
+      "author": "이서연 기자",
+      "date": "2026-03-08T10:00:00+09:00",
+      "readTime": "6분",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800"
+    }
+  ]
+}
