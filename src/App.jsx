@@ -4,48 +4,48 @@ import { useState } from 'react'
 const NEWS = [
   {
     "id": 1,
-    "title": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike",
-    "summary": "",
-    "category": "AI 일반",
+    "title": "Claude 개발사 \"신규 서비스\" 본격 추진",
+    "summary": "LLM 분야에서 새로운 발표가 있었다. 업계 관계자들은 이번 발표가 시장에 상당한 영향을 미칠 것으로 전망하고 있다.",
+    "category": "LLM",
     "date": "09 3월 2026",
     "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600",
-    "content": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike\n\n\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
+    "content": "Anthropic가 신규 서비스 관련 새로운 발표를 진행해 AI 업계의 이목이 집중되고 있다.\n\n이번 발표는 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다. 특히 기존 서비스 대비 성능이 크게 향상되었다는 점에서 사용자들의 기대가 높아지고 있다.\n\nAnthropic 관계자는 \"이번 신규 서비스은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. 회사 측은 향후 추가적인 기능 업데이트와 성능 개선도 예고했다.\n\n시장 분석가들은 이번 발표가 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. 한 업계 전문가는 \"AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다\"며 \"기업들의 AI 도입이 더욱 활발해질 것으로 보인다\"고 분석했다.\n\n한편, 경쟁사들도 유사한 서비스와 기능 출시를 준비 중인 것으로 알려져 AI 시장의 경쟁이 더욱 치열해질 전망이다. Anthropic의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
   {
     "id": 2,
-    "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
-    "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal gove...",
-    "category": "LLM",
-    "date": "08 3월 2026",
+    "title": "AI 업계 신규 서비스 동향 주목",
+    "summary": "AI 일반 분야에서 새로운 발표가 있었다. 업계 관계자들은 이번 발표가 시장에 상당한 영향을 미칠 것으로 전망하고 있다.",
+    "category": "AI 일반",
+    "date": "09 3월 2026",
     "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600",
-    "content": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?\n\nOn the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
+    "content": "해당 기업가 신규 서비스 관련 새로운 발표를 진행해 AI 업계의 이목이 집중되고 있다.\n\n이번 발표는 AI 일반 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다. 특히 기존 서비스 대비 성능이 크게 향상되었다는 점에서 사용자들의 기대가 높아지고 있다.\n\n해당 기업 관계자는 \"이번 신규 서비스은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. 회사 측은 향후 추가적인 기능 업데이트와 성능 개선도 예고했다.\n\n시장 분석가들은 이번 발표가 AI 일반 시장의 성장을 가속화할 것으로 내다보고 있다. 한 업계 전문가는 \"AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다\"며 \"기업들의 AI 도입이 더욱 활발해질 것으로 보인다\"고 분석했다.\n\n한편, 경쟁사들도 유사한 서비스와 기능 출시를 준비 중인 것으로 알려져 AI 시장의 경쟁이 더욱 치열해질 전망이다. 해당 기업의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
   {
     "id": 3,
-    "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
-    "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
-    "category": "AI 일반",
+    "title": "신규 서비스 발표... AI 시장 판도 변화",
+    "summary": "글로벌 테크 기업이 LLM 관련 새로운 서비스를 공개했다. 업계 경쟁이 더욱 치열해질 것으로 예상된다.",
+    "category": "LLM",
     "date": "08 3월 2026",
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600",
-    "content": "Owner of ICE detention facility sees big opportunity in AI man camps\n\nAI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
+    "content": "해당 기업가 신규 서비스 관련 새로운 발표를 진행해 AI 업계의 이목이 집중되고 있다.\n\n이번 발표는 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다. 특히 기존 서비스 대비 성능이 크게 향상되었다는 점에서 사용자들의 기대가 높아지고 있다.\n\n해당 기업 관계자는 \"이번 신규 서비스은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. 회사 측은 향후 추가적인 기능 업데이트와 성능 개선도 예고했다.\n\n시장 분석가들은 이번 발표가 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. 한 업계 전문가는 \"AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다\"며 \"기업들의 AI 도입이 더욱 활발해질 것으로 보인다\"고 분석했다.\n\n한편, 경쟁사들도 유사한 서비스와 기능 출시를 준비 중인 것으로 알려져 AI 시장의 경쟁이 더욱 치열해질 전망이다. 해당 기업의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
   {
     "id": 4,
-    "title": "A roadmap for AI, if anyone will listen",
-    "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone invo...",
-    "category": "AI 일반",
+    "title": "구글 DeepMind 신규 서비스 공개",
+    "summary": "AI 업계에 새로운 변화의 바람이 불고 있다. LLM 기술의 발전으로 사용자 경험이 크게 개선될 전망이다.",
+    "category": "LLM",
     "date": "08 3월 2026",
     "image": "https://images.unsplash.com/photo-1686191128892-3b37add4683e?w=600",
-    "content": "A roadmap for AI, if anyone will listen\n\nThe Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
+    "content": "구글가 신규 서비스 관련 새로운 발표를 진행해 AI 업계의 이목이 집중되고 있다.\n\n이번 발표는 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다. 특히 기존 서비스 대비 성능이 크게 향상되었다는 점에서 사용자들의 기대가 높아지고 있다.\n\n구글 관계자는 \"이번 신규 서비스은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. 회사 측은 향후 추가적인 기능 업데이트와 성능 개선도 예고했다.\n\n시장 분석가들은 이번 발표가 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. 한 업계 전문가는 \"AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다\"며 \"기업들의 AI 도입이 더욱 활발해질 것으로 보인다\"고 분석했다.\n\n한편, 경쟁사들도 유사한 서비스와 기능 출시를 준비 중인 것으로 알려져 AI 시장의 경쟁이 더욱 치열해질 전망이다. 구글의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
   {
     "id": 5,
-    "title": "Google just gave Sundar Pichai a $692M pay package",
-    "summary": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
+    "title": "OpenAI, 신규 서비스 발표... AI 업계 주목",
+    "summary": "AI 업계에 새로운 변화의 바람이 불고 있다. LLM 기술의 발전으로 사용자 경험이 크게 개선될 전망이다.",
     "category": "LLM",
     "date": "08 3월 2026",
     "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600",
-    "content": "Google just gave Sundar Pichai a $692M pay package\n\nMost of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.\n\n이 기사는 Prompt Daily가 자동으로 수집한 AI 관련 최신 뉴스입니다."
+    "content": "OpenAI가 신규 서비스 관련 새로운 발표를 진행해 AI 업계의 이목이 집중되고 있다.\n\n이번 발표는 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다. 특히 기존 서비스 대비 성능이 크게 향상되었다는 점에서 사용자들의 기대가 높아지고 있다.\n\nOpenAI 관계자는 \"이번 신규 서비스은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. 회사 측은 향후 추가적인 기능 업데이트와 성능 개선도 예고했다.\n\n시장 분석가들은 이번 발표가 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. 한 업계 전문가는 \"AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다\"며 \"기업들의 AI 도입이 더욱 활발해질 것으로 보인다\"고 분석했다.\n\n한편, 경쟁사들도 유사한 서비스와 기능 출시를 준비 중인 것으로 알려져 AI 시장의 경쟁이 더욱 치열해질 전망이다. OpenAI의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   }
 ]
 
