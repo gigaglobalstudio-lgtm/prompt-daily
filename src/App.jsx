@@ -16,7 +16,7 @@ const NEWS = [
     "title": "OpenAI 직원들, 연대 움직임... \"AI 기술\" 이슈 확산",
     "summary": "OpenAI이(가) AI 기술 발표을(를) 진행했다. LLM 분야에서 중요한 의미를 갖는 이번 발표에 업계의 관심이 집중되고 있다.",
     "category": "LLM",
-    "date": "10 3월 2026",
+    "date": "09 3월 2026",
     "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600",
     "content": "OpenAI이(가) AI 기술 관련 발표을(를) 진행하며 AI 업계의 이목이 집중되고 있다. More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply-chain risk, according to court filings라고 전해졌다.\n\n이번 발표은 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다.\n\nOpenAI 관계자는 \"이번 발표은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. \n\n시장 분석가들은 이번 발표이 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다는 평가다.\n\n한편, 경쟁사들도 유사한 움직임을 보이고 있어 AI 시장의 경쟁이 더욱 치열해질 전망이다. OpenAI의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
@@ -25,7 +25,7 @@ const NEWS = [
     "title": "Anthropic, AI 기술 신규 출시... 업계 경쟁 가속화",
     "summary": "Anthropic이(가) AI 기술 출시을(를) 진행했다. LLM 분야에서 중요한 의미를 갖는 이번 발표에 업계의 관심이 집중되고 있다.",
     "category": "LLM",
-    "date": "10 3월 2026",
+    "date": "09 3월 2026",
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600",
     "content": "Anthropic이(가) AI 기술 관련 출시을(를) 진행하며 AI 업계의 이목이 집중되고 있다. Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI라고 전해졌다.\n\n이번 출시은 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다.\n\nAnthropic 관계자는 \"이번 출시은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. \n\n시장 분석가들은 이번 출시이 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다는 평가다.\n\n한편, 경쟁사들도 유사한 움직임을 보이고 있어 AI 시장의 경쟁이 더욱 치열해질 전망이다. Anthropic의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
@@ -34,7 +34,7 @@ const NEWS = [
     "title": "OpenAI, Promptfoo 인수... AI 에이전트 역량 강화",
     "summary": "OpenAI이(가) AI 에이전트 인수을(를) 진행했다. LLM 분야에서 중요한 의미를 갖는 이번 발표에 업계의 관심이 집중되고 있다.",
     "category": "LLM",
-    "date": "10 3월 2026",
+    "date": "09 3월 2026",
     "image": "https://images.unsplash.com/photo-1686191128892-3b37add4683e?w=600",
     "content": "OpenAI이(가) AI 에이전트 관련 인수을(를) 진행하며 AI 업계의 이목이 집중되고 있다. This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations라고 전해졌다.\n\n이번 인수은 LLM 분야에서 중요한 의미를 갖는다. 업계 관계자들은 이번 발표가 시장 경쟁 구도에 상당한 영향을 미칠 것으로 전망하고 있다.\n\nOpenAI 관계자는 \"이번 인수은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. \n\n시장 분석가들은 이번 인수이 LLM 시장의 성장을 가속화할 것으로 내다보고 있다. AI 기술의 발전 속도가 예상보다 빠르게 진행되고 있다는 평가다.\n\n한편, 경쟁사들도 유사한 움직임을 보이고 있어 AI 시장의 경쟁이 더욱 치열해질 전망이다. OpenAI의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   },
@@ -43,7 +43,7 @@ const NEWS = [
     "title": "AI 기술 발표... AI 업계 새 국면 진입",
     "summary": "AI 기술 발표 소식이 전해졌다. AI 일반 시장에 상당한 영향을 미칠 것으로 전망된다.",
     "category": "AI 일반",
-    "date": "10 3월 2026",
+    "date": "09 3월 2026",
     "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600",
     "content": "해당 기업이(가) AI 기술 관련 발표을(를) 진행하며 AI 업계의 이목이 집중되고 있다. This story originally appeared in The Algorithm, our weekly newsletter on AI라고 전해졌다.\n\n이번 발표은 AI 일반 분야에서 중요한 의미를 갖는다. To get stories like this in your inbox first, sign up here는 것으로 알려졌다.\n\n해당 기업 관계자는 \"이번 발표은 오랜 연구 개발의 결실\"이라며 \"사용자들에게 한층 개선된 경험을 제공할 수 있게 됐다\"고 밝혔다. “Anyone wanna host a get together in SF and pull this up on a 100 inch TV고 덧붙였다.\n\n시장 분석가들은 이번 발표이 AI 일반 시장의 성장을 가속화할 것으로 내다보고 있다. ”&#160; The author of that post on X was referring to an online intelligence dashboard following&#8230;고 분석했다.\n\n한편, 경쟁사들도 유사한 움직임을 보이고 있어 AI 시장의 경쟁이 더욱 치열해질 전망이다. 해당 기업의 이번 행보가 업계 전반에 어떤 파급 효과를 가져올지 귀추가 주목된다."
   }
