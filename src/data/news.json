@@ -1,139 +1,60 @@
 {
-  "lastUpdated": "2026-03-09T00:53:24.503Z",
+  "lastUpdated": "2026-03-10T11:35:00.000Z",
   "articles": [
     {
-      "id": "1773017604201000",
-      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
-      "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.",
-      "category": "기업 AI",
+      "id": "20260310113501",
+      "title": "OpenAI, GPT-5.4 전격 출시... '컴퓨터 자율 조작' 가능한 첫 범용 모델",
+      "summary": "OpenAI가 GPT-5.4를 출시했다. 스크린샷을 보고 마우스·키보드 명령을 실행하는 '네이티브 컴퓨터 사용' 기능을 탑재한 최초의 범용 AI 모델이다. 코딩, 스프레드시트, 프레젠테이션 작업을 자동화할 수 있어 업무 생산성 혁명이 예상된다.",
+      "category": "LLM",
       "author": "Prompt Daily 편집팀",
-      "date": "2026-03-08T20:14:42.000Z",
-      "readTime": "3분",
-      "image": "https://picsum.photos/seed/1773017604201000/800/450",
+      "date": "2026-03-10T10:00:00+09:00",
+      "readTime": "4분",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
       "breaking": true
     },
     {
-      "id": "1773017604201001",
-      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
-      "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
+      "id": "20260310113502",
+      "title": "Anthropic Claude, 펜타곤 거부 후 앱스토어 1위 등극... 사용자 60% 급증",
+      "summary": "Anthropic의 Claude가 애플 앱스토어 1위를 차지하며 ChatGPT를 제쳤다. 펜타곤과의 2억 달러 계약을 거부하고 자율 살상무기·대량 감시 AI 개발을 거부한 것이 오히려 사용자 신뢰를 얻었다. 무료 사용자가 60% 증가하고 일일 가입자는 4배로 늘었다.",
       "category": "기업 AI",
       "author": "Prompt Daily 편집팀",
-      "date": "2026-03-08T16:30:00.000Z",
+      "date": "2026-03-10T09:30:00+09:00",
+      "readTime": "5분",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800",
+      "breaking": true
+    },
+    {
+      "id": "20260310113503",
+      "title": "애플, 3월 중 '새로운 Siri' 출시... 구글 Gemini 탑재로 ChatGPT 대항마 부상",
+      "summary": "애플이 iOS 26.4와 함께 완전히 새로워진 Siri를 3월 중 출시한다. 화면 인식, 앱 간 연동이 가능하며, 구글 Gemini AI를 활용해 대화 능력이 대폭 향상됐다. 애플의 Private Cloud Compute로 프라이버시도 보장된다.",
+      "category": "기업 AI",
+      "author": "Prompt Daily 편집팀",
+      "date": "2026-03-10T09:00:00+09:00",
       "readTime": "4분",
-      "image": "https://picsum.photos/seed/1773017604201001/800/450",
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800",
       "breaking": false
     },
     {
-      "id": "1773017604201002",
-      "title": "A roadmap for AI, if anyone will listen",
-      "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+      "id": "20260310113504",
+      "title": "한국-싱가포르 AI 커넥트 서밋 개최... 투자·연구·산업 3대 축 협력 본격화",
+      "summary": "한국과 싱가포르가 AI를 매개로 한 전략적 파트너십을 본격화했다. 양국은 AI 커넥트 서밋에서 투자, 연구, 산업 협력을 3대 축으로 하는 공동 이니셔티브를 발표했다. 아시아 AI 허브 경쟁이 가속화될 전망이다.",
       "category": "기업 AI",
       "author": "Prompt Daily 편집팀",
-      "date": "2026-03-08T06:05:26.000Z",
+      "date": "2026-03-10T08:30:00+09:00",
       "readTime": "3분",
-      "image": "https://picsum.photos/seed/1773017604201002/800/450",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
       "breaking": false
     },
     {
-      "id": "001",
-      "title": "OpenAI, GPT-5 베타 테스트 시작... '추론 능력 3배 향상' 주장",
-      "summary": "OpenAI가 차세대 대규모 언어 모델 GPT-5의 베타 테스트를 일부 기업 고객 대상으로 시작했다. 복잡한 추론 작업에서 기존 모델 대비 3배 향상된 성능을 보인다고 밝혔다.",
-      "category": "LLM",
-      "author": "김태영 기자",
-      "date": "2026-03-09T08:30:00+09:00",
-      "readTime": "4분",
-      "breaking": true,
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800"
-    },
-    {
-      "id": "002",
-      "title": "Anthropic, Claude 4 출시 예고... '윤리적 AI의 새 기준'",
-      "summary": "Anthropic이 3월 중 Claude 4 출시를 예고했다. 향상된 Constitutional AI와 함께 멀티모달 기능이 대폭 강화될 전망이다.",
-      "category": "LLM",
-      "author": "이서연 기자",
-      "date": "2026-03-09T07:00:00+09:00",
-      "readTime": "3분",
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800"
-    },
-    {
-      "id": "003",
-      "title": "Sora 2.0 공개, 8K 영상 생성 지원... 할리우드 '긴장'",
-      "summary": "OpenAI가 차세대 비디오 생성 모델 Sora 2.0을 발표했다. 8K 해상도와 최대 5분 길이의 영상 생성이 가능해져 영상 제작 산업에 큰 파장이 예상된다.",
-      "category": "비디오 AI",
-      "author": "박지훈 기자",
-      "date": "2026-03-09T06:00:00+09:00",
-      "readTime": "5분",
-      "image": "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800"
-    },
-    {
-      "id": "004",
-      "title": "구글 Gemini 2.5, 코딩 벤치마크서 GPT-4o 추월",
-      "summary": "구글의 Gemini 2.5가 주요 코딩 벤치마크에서 GPT-4o를 앞질렀다. 특히 복잡한 알고리즘 문제 해결에서 15% 높은 정확도를 기록했다.",
-      "category": "LLM",
-      "author": "최민수 기자",
-      "date": "2026-03-08T22:00:00+09:00",
-      "readTime": "4분",
-      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800"
-    },
-    {
-      "id": "005",
-      "title": "테슬라 Optimus 2.0, 공장 라인 투입 시작",
-      "summary": "테슬라가 차세대 휴머노이드 로봇 Optimus 2.0을 프리몬트 공장에 시범 배치했다. 2027년 대량 생산 목표.",
-      "category": "로보틱스",
-      "author": "김태영 기자",
-      "date": "2026-03-08T20:00:00+09:00",
-      "readTime": "3분",
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800"
-    },
-    {
-      "id": "006",
-      "title": "애플, 자체 LLM 'Apple Intelligence 2.0' WWDC서 공개 예정",
-      "summary": "애플이 자체 개발한 대규모 언어 모델 Apple Intelligence 2.0을 오는 6월 WWDC에서 공개할 예정이다. 온디바이스 AI 처리가 핵심.",
+      "id": "20260310113505",
+      "title": "중국, 15차 5개년 계획서 'AI 플러스' 국가 최우선 과제로 격상... 2030년 경제 90% AI 통합 목표",
+      "summary": "중국이 15차 5개년 계획에서 AI 플러스 이니셔티브를 국가 최우선 과제로 선정했다. 2030년까지 경제의 90%에 AI를 통합한다는 목표다. AI 관련 언급이 52회로, 14차 계획(11회)의 5배에 달해 중국의 AI 굴기 의지를 보여준다.",
       "category": "기업 AI",
-      "author": "이서연 기자",
-      "date": "2026-03-08T18:00:00+09:00",
+      "author": "Prompt Daily 편집팀",
+      "date": "2026-03-10T08:00:00+09:00",
       "readTime": "4분",
-      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800"
-    },
-    {
-      "id": "007",
-      "title": "미드저니 V7, 실사와 구분 불가능한 수준 도달",
-      "summary": "미드저니가 V7 알파 버전을 공개했다. 전문가들도 실제 사진과 구분하기 어려운 수준의 이미지 생성이 가능해졌다.",
-      "category": "이미지 AI",
-      "author": "박지훈 기자",
-      "date": "2026-03-08T16:00:00+09:00",
-      "readTime": "3분",
-      "image": "https://images.unsplash.com/photo-1686191128892-3b37add4683e?w=800"
-    },
-    {
-      "id": "008",
-      "title": "메타, 오픈소스 Llama 4 발표... 'GPT-4 수준 무료 공개'",
-      "summary": "메타가 Llama 4를 오픈소스로 공개했다. 상업적 이용도 무료로 가능해 AI 생태계에 큰 변화가 예상된다.",
-      "category": "LLM",
-      "author": "최민수 기자",
-      "date": "2026-03-08T14:00:00+09:00",
-      "readTime": "5분",
-      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800"
-    },
-    {
-      "id": "009",
-      "title": "AI 스타트업 투자 급증... Q1 벤처 투자의 45% 차지",
-      "summary": "2026년 1분기 글로벌 벤처캐피탈 투자 중 AI 스타트업이 45%를 차지하며 사상 최고치를 기록했다.",
-      "category": "스타트업",
-      "author": "김태영 기자",
-      "date": "2026-03-08T12:00:00+09:00",
-      "readTime": "4분",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
-    },
-    {
-      "id": "010",
-      "title": "EU, AI Act 시행 본격화... 기업들 대응 분주",
-      "summary": "EU AI Act가 본격 시행됨에 따라 글로벌 빅테크 기업들의 컴플라이언스 대응이 본격화되고 있다.",
-      "category": "기업 AI",
-      "author": "이서연 기자",
-      "date": "2026-03-08T10:00:00+09:00",
-      "readTime": "6분",
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800"
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800",
+      "breaking": false
     }
   ]
 }
