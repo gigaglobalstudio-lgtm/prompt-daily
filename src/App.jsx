@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { supabase } from './lib/supabase'
 
 // 뉴스 데이터 (한글) - 2026-03-11 자동 업데이트 - 상세 버전
 const NEWS = [
@@ -260,169 +259,148 @@ function App() {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(false)
 
-  // 초기 사용자 세션 체크
+  // 초기 사용자 세션 체크 (localStorage 기반)
   useEffect(() => {
-    checkUser()
-
-    // Auth 상태 변화 감지
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null)
-    })
-
-    return () => subscription.unsubscribe()
+    const savedUser = localStorage.getItem('pd_current_user')
+    if (savedUser) {
+      try {
+        setUser(JSON.parse(savedUser))
+      } catch (e) {
+        localStorage.removeItem('pd_current_user')
+      }
+    }
   }, [])
 
-  async function checkUser() {
-    try {
-      const { data: { session } } = await supabase.auth.getSession()
-      setUser(session?.user ?? null)
-    } catch (error) {
-      console.log('Auth not configured:', error.message)
-    }
-  }
-
-  // 회원가입
+  // 회원가입 (localStorage 기반)
   async function handleSignup(e) {
     e.preventDefault()
     setLoading(true)
     setMessage('')
 
-    try {
-      const { data, error } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          emailRedirectTo: window.location.origin
-        }
-      })
-
-      if (error) throw error
-
-      setMessage('가입 완료! 이메일을 확인해주세요.')
-      setMessageType('success')
-      setTimeout(() => {
-        setShowAuth(false)
-        setMessage('')
-        setEmail('')
-        setPassword('')
-      }, 2000)
-    } catch (error) {
-      setMessage(error.message || '회원가입 실패')
+    // 이메일 형식 체크
+    if (!email.includes('@')) {
+      setMessage('올바른 이메일 형식이 아닙니다.')
       setMessageType('error')
-    } finally {
       setLoading(false)
+      return
     }
+
+    // 비밀번호 길이 체크
+    if (password.length < 6) {
+      setMessage('비밀번호는 6자 이상이어야 합니다.')
+      setMessageType('error')
+      setLoading(false)
+      return
+    }
+
+    // localStorage에서 사용자 확인
+    const users = JSON.parse(localStorage.getItem('pd_users') || '{}')
+
+    if (users[email]) {
+      setMessage('이미 가입된 이메일입니다.')
+      setMessageType('error')
+      setLoading(false)
+      return
+    }
+
+    // 새 사용자 등록
+    users[email] = { password, createdAt: new Date().toISOString() }
+    localStorage.setItem('pd_users', JSON.stringify(users))
+
+    // 자동 로그인
+    const newUser = { email, id: Date.now().toString() }
+    localStorage.setItem('pd_current_user', JSON.stringify(newUser))
+    setUser(newUser)
+
+    setMessage('가입 완료! 환영합니다.')
+    setMessageType('success')
+    setTimeout(() => {
+      setShowAuth(false)
+      setMessage('')
+      setEmail('')
+      setPassword('')
+    }, 1500)
+    setLoading(false)
   }
 
-  // 로그인
+  // 로그인 (localStorage 기반)
   async function handleLogin(e) {
     e.preventDefault()
     setLoading(true)
     setMessage('')
 
-    try {
-      const { data, error } = await supabase.auth.signInWithPassword({
-        email,
-        password
-      })
+    const users = JSON.parse(localStorage.getItem('pd_users') || '{}')
+    const userData = users[email]
 
-      if (error) throw error
-
-      setMessage('로그인 성공!')
-      setMessageType('success')
-      setTimeout(() => {
-        setShowAuth(false)
-        setMessage('')
-        setEmail('')
-        setPassword('')
-      }, 1500)
-    } catch (error) {
-      setMessage(error.message || '로그인 실패')
+    if (!userData) {
+      setMessage('등록되지 않은 이메일입니다.')
       setMessageType('error')
-    } finally {
       setLoading(false)
+      return
     }
+
+    if (userData.password !== password) {
+      setMessage('비밀번호가 일치하지 않습니다.')
+      setMessageType('error')
+      setLoading(false)
+      return
+    }
+
+    // 로그인 성공
+    const loggedInUser = { email, id: Date.now().toString() }
+    localStorage.setItem('pd_current_user', JSON.stringify(loggedInUser))
+    setUser(loggedInUser)
+
+    setMessage('로그인 성공!')
+    setMessageType('success')
+    setTimeout(() => {
+      setShowAuth(false)
+      setMessage('')
+      setEmail('')
+      setPassword('')
+    }, 1500)
+    setLoading(false)
   }
 
   // 로그아웃
   async function handleLogout() {
-    try {
-      await supabase.auth.signOut()
-      setUser(null)
-      setMessage('로그아웃 되었습니다.')
-      setMessageType('info')
-      setTimeout(() => setMessage(''), 2000)
-    } catch (error) {
-      console.error('Logout error:', error)
-    }
+    localStorage.removeItem('pd_current_user')
+    setUser(null)
+    setMessage('로그아웃 되었습니다.')
+    setMessageType('info')
+    setTimeout(() => setMessage(''), 2000)
   }
 
-  // 뉴스레터 구독
+  // 뉴스레터 구독 (localStorage 기반)
   async function handleSubscribe(e) {
     e.preventDefault()
     setLoading(true)
     setMessage('')
 
-    try {
-      // Supabase에 구독자 저장 시도
-      const { data, error } = await supabase
-        .from('subscribers')
-        .insert([{ email }])
-        .select()
-
-      if (error) {
-        if (error.code === '23505') {
-          setMessage('이미 구독 중인 이메일입니다.')
-          setMessageType('info')
-        } else {
-          throw error
-        }
-      } else {
-        setMessage('구독 완료! 매일 AI 뉴스를 받아보세요.')
-        setMessageType('success')
-      }
-
-      setTimeout(() => {
-        setShowSubscribe(false)
-        setMessage('')
-        setEmail('')
-      }, 2000)
-    } catch (error) {
-      // Supabase 연결 실패 시 localStorage 폴백
-      const list = JSON.parse(localStorage.getItem('subscribers') || '[]')
-      if (!list.includes(email)) {
-        list.push(email)
-        localStorage.setItem('subscribers', JSON.stringify(list))
-        setMessage('구독 완료!')
-        setMessageType('success')
-      } else {
-        setMessage('이미 구독 중입니다.')
-        setMessageType('info')
-      }
-      setTimeout(() => {
-        setShowSubscribe(false)
-        setMessage('')
-        setEmail('')
-      }, 2000)
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  // Google 로그인
-  async function handleGoogleLogin() {
-    try {
-      const { error } = await supabase.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          redirectTo: window.location.origin
-        }
-      })
-      if (error) throw error
-    } catch (error) {
-      setMessage('Google 로그인 실패: ' + error.message)
+    if (!email.includes('@')) {
+      setMessage('올바른 이메일 형식이 아닙니다.')
       setMessageType('error')
+      setLoading(false)
+      return
     }
+
+    const list = JSON.parse(localStorage.getItem('pd_subscribers') || '[]')
+    if (!list.includes(email)) {
+      list.push(email)
+      localStorage.setItem('pd_subscribers', JSON.stringify(list))
+      setMessage('구독 완료! 매일 AI 뉴스를 받아보세요.')
+      setMessageType('success')
+    } else {
+      setMessage('이미 구독 중인 이메일입니다.')
+      setMessageType('info')
+    }
+
+    setTimeout(() => {
+      setShowSubscribe(false)
+      setMessage('')
+      setEmail('')
+    }, 2000)
+    setLoading(false)
   }
 
   // 기사 상세 페이지
@@ -689,25 +667,6 @@ function App() {
                 {loading ? '처리 중...' : (authMode === 'login' ? '로그인' : '회원가입')}
               </button>
             </form>
-
-            <div className="my-6 flex items-center">
-              <div className="flex-1 border-t border-gray-200"></div>
-              <span className="px-4 text-sm text-gray-400">또는</span>
-              <div className="flex-1 border-t border-gray-200"></div>
-            </div>
-
-            <button
-              onClick={handleGoogleLogin}
-              className="w-full py-3 border border-gray-300 rounded-lg font-medium text-gray-700 hover:bg-gray-50 transition-colors flex items-center justify-center gap-3"
-            >
-              <svg className="w-5 h-5" viewBox="0 0 24 24">
-                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
-                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
-              </svg>
-              Google로 계속하기
-            </button>
 
             <p className="mt-6 text-center text-sm text-gray-500">
               {authMode === 'login' ? (
